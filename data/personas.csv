@@ -1,0 +1,27 @@
+# ============================================================================
+#  LLANQUIHUE TOUR - Base de datos de colaboradores
+# ----------------------------------------------------------------------------
+#  Formato por linea (separado por ';'):
+#    tipo ; rut ; nombre ; email ; telefono ; ciudad ; extra1 ; extra2
+#
+#    GUIA      -> extra1 = especialidad   ; extra2 = idiomas
+#    OPERADOR  -> extra1 = empresa         ; extra2 = aniosExperiencia
+#    PROVEEDOR -> extra1 = tipoServicio    ; extra2 = valorServicio
+# ============================================================================
+
+# --- GUIAS -------------------------------------------------------------------
+GUIA;12345678-9;Carla Soto;carla.soto@llanquihuetour.cl;+56991112233;Puerto Varas;Rutas gastronomicas;Espanol|Ingles
+GUIA;13456789-0;Matias Fuentes;matias.fuentes@llanquihuetour.cl;+56992223344;Frutillar;Excursiones culturales;Espanol|Aleman
+GUIA;14567890-1;Valentina Reyes;valentina.reyes@llanquihuetour.cl;+56993334455;Puerto Octay;Paseos lacustres;Espanol|Ingles|Portugues
+
+# --- OPERADORES --------------------------------------------------------------
+OPERADOR;15678901-2;Rodrigo Munoz;rodrigo.munoz@turoperador.cl;+56994445566;Puerto Montt;Andes Sur Operaciones;12
+OPERADOR;16789012-3;Francisca Lagos;francisca.lagos@turoperador.cl;+56995556677;Llanquihue;Lagos Travel SpA;7
+
+# --- PROVEEDORES -------------------------------------------------------------
+PROVEEDOR;17890123-4;Transportes del Sur;contacto@transsur.cl;+56996667788;Puerto Varas;Transporte;85000
+PROVEEDOR;18901234-5;Cocina Patagonica;ventas@cocinapatagonica.cl;+56997778899;Frutillar;Alimentacion;45000
+PROVEEDOR;19012345-6;Cabanas del Lago;reservas@cabanasdellago.cl;+56998889900;Puerto Octay;Alojamiento;120000
+
+# --- REGISTRO INVALIDO (intencional, para demostrar la validacion try-catch) -
+GUIA;rut-malo;Registro Erroneo;correo-invalido;sin telefono;;;

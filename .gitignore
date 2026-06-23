@@ -1,0 +1,15 @@
+# Compilados de Java
+out/
+*.class
+
+# Carpeta de salida de IntelliJ
+/out/
+
+# Archivos de configuracion local del IDE (workspace)
+.idea/workspace.xml
+.idea/usage.statistics.xml
+.idea/shelf/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
